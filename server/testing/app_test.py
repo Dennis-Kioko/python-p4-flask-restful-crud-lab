@@ -44,7 +44,7 @@ class TestPlant:
         '''returns JSON representing updated Plant object at "/plants/<int:id>".'''
         with app.app_context():
             lo = Plant(
-                name="Live Oak",
+                name="",
                 image="https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Plants-and-Fungi/plant_southern-live-oak_600x300.ashx",
                 price=250.00,
                 is_in_stock=False,
